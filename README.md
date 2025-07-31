@@ -1,4 +1,4 @@
--- jack 827
+--rueeh
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
@@ -91,7 +91,7 @@ local function createLanguageGUI()
 
     local titleLabel = Instance.new("TextLabel")
     titleLabel.Size = UDim2.new(1, 0, 0, 50)
-    titleLabel.Text = "crack by rue"
+    titleLabel.Text = "server op by rue"
     titleLabel.TextColor3 = Color3.new(1, 1, 1)
     titleLabel.Font = Enum.Font.SourceSansBold
     titleLabel.TextSize = 24
